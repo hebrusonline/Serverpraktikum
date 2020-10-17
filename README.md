@@ -1,13 +1,23 @@
-# Serverpraktikum
+# Dashboard in LAMP
 
-Dieses Repository enthält im zentralen Branch Dateien die für den Ablauf des Praktikums relevant sind.
+Dieser Branch enthält die fertige Dashboard-Aplikation .
 
-* Zusätzlich sind im Repository die die beiden Branches dashboard_LAMP und dashboard_MEAN enthalten.
-* Dort stehen die fertigen Web-Appliaktionen zur Verfügung, die während des Praktikums erstellt werden.
-* Dadurch soll ein Vergleich zwischen den beiden Technologie-Stacks LAMP und MEAN ermöglicht werden.
+## Hinweise 
 
-## Aufbau
+* Achten Sie darauf, dass die Informationen für den Datenbank Login in __data.php__ eingetragen werden müssen!
+    *
+* Auf Ihrem Server müssen die Komponenten des LAMP-Stacks installiert sein.
+    *
 
+
+## Struktur
+
+Dieser Branch enthält folgende Dateien:
     .
-    ├── files        # Enthält Dateien zum Test von einzelnen Komponenten.
+    ├── api.php                   # Wickelt den Aufruf einer externen API ab.
+    ├── build_data_table.php	  # Bereitet Daten für die Darstellung vor.
+    ├── data.php                  # Hier werden Datenbankabfragen verwaltet.
+    ├── index.php                 # Diese Datei wird beim initialen Aufruf abgefragt.   
+    ├── script.js                 # Enthält Skripts, die clientseitig ausgeführt werden.
+    ├── style.css                 # Enthält Informationen zur Darstellung der Webseite.
     └── README.md
