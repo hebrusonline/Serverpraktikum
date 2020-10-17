@@ -1,6 +1,6 @@
 # Dashboard in LAMP
 
-Dieser Branch enthält die fertige Dashboard-Aplikation .
+Dieser Branch enthält die fertige Dashboard-Aplikation in LAMP.
 
 ## Hinweise 
 
