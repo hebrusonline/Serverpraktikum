@@ -53,7 +53,7 @@ function onload(){
 			let value = parseInt(stock.innerHTML)-1;
 			
 			//Erzeuge AJAX-Anfrage:
-			let ajaxurl = '/dashboard/data.php',
+			let ajaxurl = '/dashboard_lamp/data.php',
 			data =  "pid= "+pid+"& stock="+value; 
 						
 			var request = new XMLHttpRequest();
