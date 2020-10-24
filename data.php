@@ -94,7 +94,7 @@ function insert_data_produkte($table, $data){
 	$conn = new PDO("mysql:host=$host;port=$port;dbname=$dbname", "$user", "$pwd");
 	 
 	//SQL Befehl ausführen.
-	$insert_query = "UPDATE ".$table." SET lager =".$data[stock]." WHERE ".$table.".id = ".$data[pid];
+	$insert_query = "UPDATE ".$table." SET lager =".$data[bestand]." WHERE ".$table.".id = ".$data[pid];
 
 	$conn->query($insert_query);
 	
