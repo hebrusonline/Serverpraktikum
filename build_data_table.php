@@ -60,7 +60,7 @@ function erstelle_tabelle_produkte($name_tabelle){
 		print "<td class='wide'>";
 		//Füge Buttons hinzu, um den Lagerbestand zu senken, bzw. zu erhöhen.
 		print "<button class='decrease' pid=".$row["id"].">-</button>";
-		print "<div pid=".$row["id"].">".$row['lager']."</div>";
+		print "<div pid=".$row["id"].">".$row['bestand']."</div>";
 		print "<button class='increase' pid=".$row["id"].">+</button>";
 		print"</td>";
 		print "</tr>";
